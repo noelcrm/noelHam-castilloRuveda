@@ -1,0 +1,26 @@
+header {
+    background-color:white;
+	top: 0px;
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    img {
+        padding: 10px 0px 10px 0px;
+        width: 100px;
+        height: 47,927px;
+    }
+    .menuNav {
+        a{
+            color:red !important;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+        .menu {
+            li{
+                padding: 10px;
+            }
+        }
+    }
+}
