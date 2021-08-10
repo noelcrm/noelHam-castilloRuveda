@@ -1,5 +1,5 @@
 header {
-    background-color:white;
+    background-color:$blanco;
 	top: 0px;
     position: sticky;
     z-index: 1;
@@ -11,15 +11,31 @@ header {
     }
     .menuNav {
         a{
-            color:red !important;
+            color:$rojoMarca !important;
             text-decoration: none;
             font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 1rem;
         }
         .menu {
+            list-style-type: none;
             li{
                 padding: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+    header {
+        .menuNav {
+            a {
+                font-size: 0.7rem;
+            }
+            .menu {
+                li {
+                padding: 5px;
+                }
             }
         }
     }

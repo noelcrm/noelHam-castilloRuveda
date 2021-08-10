@@ -1,0 +1,48 @@
+$blanco:#FFFFFF;
+$rosaClaro:#FBD2D3;
+$rosa:#F4777C;
+$rojoMarca:#EC1C24;
+$rojoOscuro:#9C1D22;
+$bordo:#4B1E21;
+
+$ancho:250px;
+$alto:250px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/ovillos.svg);
+    background-size: cover;
+}
+
+.titulo {
+    color:$rojoOscuro;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tituloCursos {
+    color: #9C1D22;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+.subtitulo {
+    color:$rojoOscuro;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+    .titulo {
+        font-size: 1.5rem;
+    }   
+}
