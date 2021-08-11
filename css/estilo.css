@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../img/ovillos.svg);
+  background-size: cover; }
+
+.titulo {
+  color: #9C1D22;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  text-transform: uppercase; }
+
+.tituloCursos {
+  color: #9C1D22;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: center; }
+
+.subtitulo {
+  color: #9C1D22;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: 'Roboto Slab', serif; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .titulo {
+    font-size: 1.5rem; } }
+
+header {
+  background-color: #FFFFFF;
+  top: 0px;
+  position: sticky;
+  z-index: 1;
+  width: 100%; }
+  header img {
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    height: 47,927px; }
+  header .menuNav a {
+    color: #EC1C24 !important;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem; }
+  header .menuNav .menu {
+    list-style-type: none; }
+    header .menuNav .menu li {
+      padding: 10px; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  header .menuNav a {
+    font-size: 0.7rem; }
+  header .menuNav .menu li {
+    padding: 5px; } }
+
+.queOfrezco {
+  padding-top: 20px; }
+  .queOfrezco p {
+    background-color: #FBD2D3;
+    padding: 10px 15px 10px 15px;
+    text-align: justify; }
+
+.enlaces a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #4B1E21;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .queOfrezco {
+    padding-left: 15px; }
+    .queOfrezco p {
+      font-size: 0.8rem;
+      padding: 20px; }
+  .enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
+
+.sobreMi {
+  background-color: #9C1D22;
+  border-radius: 1rem;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 !important; }
+  .sobreMi .contenedorImgSobreMi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0; }
+    .sobreMi .contenedorImgSobreMi .imgSobreMi {
+      text-align: center;
+      border-radius: 1rem;
+      width: 22rem;
+      height: 22rem;
+      margin-top: 3rem;
+      margin-bottom: 3rem; }
+  .sobreMi .quienSoy {
+    background-color: #9C1D22;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 2rem 0 0; }
+    .sobreMi .quienSoy .tituloSobreMi {
+      color: #FBD2D3;
+      font-weight: 600;
+      font-size: 2.5rem;
+      font-family: 'Roboto Slab', serif;
+      text-transform: uppercase; }
+    .sobreMi .quienSoy .textoSobreMi {
+      background-color: #FFFFFF;
+      padding: 15px; }
+      .sobreMi .quienSoy .textoSobreMi p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #9C1D22;
+        text-align: justify; }
+
+/*.sobreMi {
+    .imgSobreMi {
+        padding: 0 !important;
+    }
+    .quienSoy {
+        background-color:$rojoOscuro;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .tituloSobreMi {
+            color:$rosaClaro;
+            font-weight: 600;
+            font-size: 2.5rem;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color:$rojoOscuro;
+            background-color:$blanco;
+            margin: 5px 30px 0px 30px;
+            padding: 15px;
+            text-align: justify;
+        }
+    }
+}*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .sobreMi .quienSoy {
+    padding: 15px; }
+    .sobreMi .quienSoy .tituloSobreMi {
+      font-size: 1.5rem; }
+    .sobreMi .quienSoy p {
+      font-size: 0.8rem;
+      padding: 20px; } }
+
+.tituloCatalogo {
+  color: #9C1D22;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  padding: 0; }
+
+.contenedorCards {
+  margin-top: 2rem;
+  margin-bottom: 3rem; }
+  .contenedorCards .cardProducto {
+    background-color: #FBD2D3;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(75, 30, 33, 0.6);
+    box-shadow: 0px 0px 15px 3px rgba(75, 30, 33, 0.6); }
+    .contenedorCards .cardProducto .cardImagen {
+      width: 13rem;
+      height: 13rem;
+      margin-top: 1rem;
+      border-radius: 1rem; }
+      .contenedorCards .cardProducto .cardImagen:hover {
+        transform: scale(1.5, 1.5);
+        transition: 1s;
+        cursor: pointer; }
+    .contenedorCards .cardProducto .nombreProducto {
+      font-family: 'Roboto Slab', serif;
+      font-weight: 600;
+      color: #4B1E21;
+      text-align: center; }
+    .contenedorCards .cardProducto .cardTexto {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 0.8rem;
+      text-align: justify; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .tituloCatalogo {
+    font-size: 1rem;
+    margin-top: 1rem; } }
+
+.cursosPromo {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  justify-items: center; }
+  .cursosPromo ul {
+    background-color: #9C1D22;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px; }
+    .cursosPromo ul li {
+      font-family: 'Roboto Condensed', sans-serif;
+      color: #FFFFFF;
+      text-align: center;
+      list-style-type: none; }
+
+.cursosCompleto {
+  margin-top: 100px; }
+  .cursosCompleto .curso {
+    margin: 20px 50px 20px 50px; }
+    .cursosCompleto .curso p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #9C1D22;
+      background-color: #FFFFFF;
+      margin: 5px 30px 0px 30px;
+      padding: 15px;
+      text-align: justify; }
+  .cursosCompleto li {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    justify-self: center; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .cursosPromo, .curso {
+    margin: 0px; }
+  .temario {
+    text-align: center; } }
+
+.pedidoNuevo {
+  margin-top: 50px; }
+  .pedidoNuevo p, .pedidoNuevo ol {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: #FFFFFF; }
+
+.botonesPedido {
+  text-align: center; }
+
+.imgPedido {
+  width: 500px;
+  height: 500px; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .pedidoNuevo p, .pedidoNuevo ol {
+    font-size: 0.8rem;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .prductoPedido {
+    text-align: center; }
+    .prductoPedido .imgPedido {
+      width: 250px;
+      height: 250px; } }
+
+.contacto {
+  background-color: #F4777C;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .contacto .tituloContacto {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    text-transform: uppercase; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .formularioContacto {
+    padding-left: 5px;
+    padding-right: 5px; } }
+
+footer {
+  background-color: #FFFFFF; }
+  footer .row {
+    align-items: center; }
+    footer .row .iso {
+      text-align: center; }
+      footer .row .iso img {
+        width: 70px;
+        height: 70px;
+        margin-top: 1rem;
+        margin-bottom: 1rem; }
+    footer .row p {
+      color: #EC1C24;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: bold;
+      justify-self: center;
+      text-align: center;
+      margin: 0%; }
+    footer .row .redesDiv {
+      display: flex;
+      flex-direction: column; }
+      footer .row .redesDiv p {
+        display: block;
+        text-align: center;
+        margin: 0%; }
+      footer .row .redesDiv .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0%;
+        list-style-type: none; }
+        footer .row .redesDiv .redes a {
+          color: #EC1C24;
+          font-size: 2rem; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  footer {
+    text-align: center; }
+    footer img {
+      padding: 5px; }
+    footer p {
+      font-size: 0.8rem; }
+    footer .redesDiv p {
+      display: none; }
+    footer .redesDiv .redes a {
+      padding: 5px; } }

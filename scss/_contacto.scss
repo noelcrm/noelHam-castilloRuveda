@@ -1,3 +1,20 @@
+.contacto {
+    background-color: $rosa;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .tituloContacto {
+        color:$blanco;
+        font-weight: 600;
+        font-size: 2rem;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+
+
 @media only screen and (min-width:0px) and (max-width:767px) {
     .formularioContacto {
         padding-left: 5px;

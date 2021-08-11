@@ -1,6 +1,50 @@
 .sobreMi {
-    display: flex;
-    align-items: stretch;
+    background-color:$rojoOscuro;
+    border-radius: 1rem;
+    width: 60%;
+    margin:0 auto;
+    padding: 0 !important;
+    .contenedorImgSobreMi{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+        .imgSobreMi {
+            text-align: center;
+            border-radius: 1rem;
+            width: 22rem;
+            height: 22rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .quienSoy {
+        background-color:$rojoOscuro;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0 2rem 0 0;
+        .tituloSobreMi {
+            color:$rosaClaro;
+            font-weight: 600;
+            font-size: 2.5rem;
+            font-family: 'Roboto Slab', serif;
+            text-transform: uppercase;
+        }
+        .textoSobreMi {
+            background-color:$blanco;
+            padding: 15px;
+            p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color:$rojoOscuro;
+            text-align: justify;
+            }
+        }
+        
+    }
+}
+/*.sobreMi {
     .imgSobreMi {
         padding: 0 !important;
     }
@@ -27,7 +71,7 @@
             text-align: justify;
         }
     }
-}
+}*/
 
 @media only screen and (min-width:0px) and (max-width:767px) {
     .sobreMi {

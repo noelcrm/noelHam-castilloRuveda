@@ -15,6 +15,8 @@
     <script src="https://kit.fontawesome.com/dd0dcbd0c6.js" crossorigin="anonymous"></script>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- mi css -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -58,17 +60,17 @@
   <!-- cierre header -->
   <!-- comienzo contenido sobreMi -->
   <div class="conteiner">
-      <div class="row sobreMi">
-          <div class="col-lg-1"> </div>
-          <div class="col-lg-3 imgSobreMi">
-              <img class="img-fluid" src="../img/noelgurumi.png" alt="noel version amigurumi">
+      <div class="row justify-content-center align-items-center sobreMi">
+          <div data-aos="fade-right" class="col-lg-6 contenedorImgSobreMi">
+              <img class="imgSobreMi" src="../img/noelgurumi.png" alt="noel version amigurumi">
           </div>
-          <div class="col-lg-7 quienSoy">
+          <div data-aos="fade-left" class="col-lg-6 quienSoy">
             <h1 class="tituloSobreMi">¿Quien es Noel?</h1>
-            <p>Esta idea nace con como un espacio de trabajo, originalmente su nombre fue "El taller de Noel" y era el tiempo que me daba a mi misma para crear, con el pasar de los meses, ese tiempo paso a transformarse en un lugar fisico, me habia dado un espacio en mi casa que llamaba taller y donde fui acomodando todas las cosas que tenia, agujas, hilos, telas, lanas, la maquina de coser, entre otras.
-              Este fue el momento en el que me dije "El taller de Noel debería evolucionar"</p>
+            <div class="textoSobreMi">
+              <p>Noel además de ser una marca, es la persona detrás de la producción de todos los muñecos y accesorios.</p>
+              <p>Soy Diseñadora Gráfica, tengo 33 años, empece a tejer en crochet porque me servia de "cable a tierra", con el tiempo me meti de lleno en el mundo del amigurumi y me enamore perdidamente de esta técnica, hoy me dedico tanto a la creación como a la enseñanza de este bello arte. </p>
+            </div>
           </div>
-          <div class="col-lg-1"> </div>
       </div>
   </div>
   </section>
@@ -98,6 +100,11 @@
   </footer>    
   <!-- cierre footer -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1200 });
+</script>   
 </body>
 </html>
