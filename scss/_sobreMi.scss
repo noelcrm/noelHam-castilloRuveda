@@ -47,11 +47,14 @@
 
 @media only screen and (min-width:0px) and (max-width:767px) {
     .sobreMi {
-        .imgSobreMi {
-            width: 20rem;
-            height: 20rem;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
+        width: 80%;
+        .contenedorImgSobreMi{
+            .imgSobreMi {
+                width: 15rem;
+                height: 15rem;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
         }
         .quienSoy {
             padding: 15px;
@@ -60,7 +63,7 @@
             }
             p {
                 font-size: 0.8rem;
-                padding: 20px;
+                padding: 5px;
             }
         }
     }
