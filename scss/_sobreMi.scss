@@ -44,37 +44,15 @@
         
     }
 }
-/*.sobreMi {
-    .imgSobreMi {
-        padding: 0 !important;
-    }
-    .quienSoy {
-        background-color:$rojoOscuro;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        .tituloSobreMi {
-            color:$rosaClaro;
-            font-weight: 600;
-            font-size: 2.5rem;
-            font-family: 'Roboto Slab', serif;
-            text-align: center;
-            text-transform: uppercase;
-        }
-        p {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
-            color:$rojoOscuro;
-            background-color:$blanco;
-            margin: 5px 30px 0px 30px;
-            padding: 15px;
-            text-align: justify;
-        }
-    }
-}*/
 
 @media only screen and (min-width:0px) and (max-width:767px) {
     .sobreMi {
+        .imgSobreMi {
+            width: 20rem;
+            height: 20rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
         .quienSoy {
             padding: 15px;
             .tituloSobreMi {
