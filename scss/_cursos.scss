@@ -44,8 +44,15 @@
 
 
 @media only screen and (min-width:0px) and (max-width:767px) {
-    .cursosPromo, .curso {
-        margin: 0px;
+    .cursosPromo {
+        margin: 0px !important;
+
+    }
+    .curso {
+        margin: 0px !important;
+        p {
+            margin: 0;
+        }
     }
     .temario {
        text-align: center;
