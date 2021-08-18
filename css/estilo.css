@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+.row {
+  width: 100%; }
+
 body {
   background-image: url(../img/ovillos.svg);
   background-size: cover; }
@@ -32,25 +35,26 @@ body {
     font-size: 1.5rem; } }
 
 header {
-  background-color: #FFFFFF;
   top: 0px;
   position: sticky;
   z-index: 1;
   width: 100%; }
-  header img {
-    padding: 10px 0px 10px 0px;
-    width: 100px;
-    height: 47,927px; }
-  header .menuNav a {
-    color: #EC1C24 !important;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 1rem; }
-  header .menuNav .menu {
-    list-style-type: none; }
-    header .menuNav .menu li {
-      padding: 10px; }
+  header .menuNav {
+    background-color: #FFFFFF; }
+    header .menuNav img {
+      padding: 10px 0px 10px 0px;
+      width: 100px;
+      height: 47,927px; }
+    header .menuNav #navbarNav {
+      justify-content: flex-end; }
+      header .menuNav #navbarNav .menu li {
+        padding: 10px; }
+        header .menuNav #navbarNav .menu li a {
+          color: #EC1C24 !important;
+          text-decoration: none;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 500;
+          font-size: 1rem; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   header .menuNav a {
@@ -95,7 +99,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
     .sobreMi .contenedorImgSobreMi .imgSobreMi {
       text-align: center;
       border-radius: 1rem;
@@ -123,6 +128,8 @@ header {
         font-weight: 400;
         color: #9C1D22;
         text-align: justify; }
+      .sobreMi .quienSoy .textoSobreMi .sobreMiParrDos {
+        margin: 0; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .sobreMi {
@@ -133,12 +140,29 @@ header {
       margin-top: 2rem;
       margin-bottom: 2rem; }
     .sobreMi .quienSoy {
-      padding: 15px; }
+      padding: 15px;
+      text-align: center; }
       .sobreMi .quienSoy .tituloSobreMi {
         font-size: 1.5rem; }
       .sobreMi .quienSoy p {
         font-size: 0.8rem;
         padding: 5px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sobreMi {
+    width: 70%;
+    height: 700px; }
+    .sobreMi .contenedorImgSobreMi .imgSobreMi {
+      margin-top: 2rem;
+      margin-bottom: 0; }
+    .sobreMi .quienSoy {
+      justify-content: center;
+      text-align: center;
+      padding: 0 1rem 0 1rem; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .sobreMi {
+    width: 80%; } }
 
 .tituloCatalogo {
   color: #9C1D22;

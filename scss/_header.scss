@@ -1,26 +1,28 @@
 header {
-    background-color:$blanco;
 	top: 0px;
     position: sticky;
     z-index: 1;
     width: 100%;
-    img {
-        padding: 10px 0px 10px 0px;
-        width: 100px;
-        height: 47,927px;
-    }
     .menuNav {
-        a{
-            color:$rojoMarca !important;
-            text-decoration: none;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            font-size: 1rem;
+        background-color:$blanco;
+        img {
+            padding: 10px 0px 10px 0px;
+            width: 100px;
+            height: 47,927px;
         }
-        .menu {
-            list-style-type: none;
-            li{
-                padding: 10px;
+        #navbarNav {
+            justify-content: flex-end;
+            .menu {
+                li {
+                    padding: 10px;
+                    a {
+                        color:$rojoMarca !important;
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 500;
+                        font-size: 1rem;
+                    }
+                }
             }
         }
     }
