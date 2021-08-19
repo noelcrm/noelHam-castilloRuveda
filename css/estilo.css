@@ -50,7 +50,7 @@ header {
       header .menuNav #navbarNav .menu li {
         padding: 10px; }
         header .menuNav #navbarNav .menu li a {
-          color: #EC1C24 !important;
+          color: #EC1C24;
           text-decoration: none;
           font-family: 'Roboto', sans-serif;
           font-weight: 500;
