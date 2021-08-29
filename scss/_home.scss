@@ -25,9 +25,10 @@
 @media only screen and (min-width:0px) and (max-width:767px) {
     .queOfrezco {
         padding-left: 15px;
-        p {
-            font-size: 0.8rem;
-            padding: 20px;
+        .queOfrezcoTexto {
+            p {
+                font-size: 0.8rem;
+            }
         }
     }
     .enlaces {
