@@ -310,15 +310,15 @@ header {
       list-style-position: inside; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .cardCursos {
-    margin-top: 1rem; }
+  .contenedorCardsCursos {
+    margin: 0; }
+    .contenedorCardsCursos .cardCursos {
+      margin-top: 1rem; }
   .curso {
     margin: 0px !important; }
     .curso p {
       font-size: 0.8rem;
-      margin: 0; }
-  .temario {
-    margin-left: 15rem; } }
+      margin: 0; } }
 
 .productoPedido img {
   border-radius: 1rem; }

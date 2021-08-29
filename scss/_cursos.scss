@@ -78,8 +78,11 @@
 
 
 @media only screen and (min-width:0px) and (max-width:767px) {
-    .cardCursos {
-        margin-top: 1rem;
+    .contenedorCardsCursos {
+        margin: 0;
+        .cardCursos {
+            margin-top: 1rem;
+        }
     }
     .curso {
         margin: 0px !important;
@@ -87,8 +90,5 @@
             font-size: 0.8rem;
             margin: 0;
         }
-    }
-    .temario {
-        margin-left: 15rem;
     }
 }
