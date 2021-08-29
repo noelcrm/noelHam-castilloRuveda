@@ -15,6 +15,7 @@ $alto:250px;
 
 .row {
     width: 100%;
+    margin: 0;
 }
 
 body {
@@ -25,13 +26,14 @@ body {
 .titulo {
     color:$rojoOscuro;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Roboto Slab', serif;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 2rem;
 }
 .tituloCursos {
-    color: #9C1D22;
+    color:$rojoOscuro;
     font-weight: 600;
     font-size: 1.5rem;
     font-family: 'Roboto Slab', serif;
@@ -48,5 +50,6 @@ body {
 @media only screen and (min-width:0px) and (max-width:767px) {
     .titulo {
         font-size: 1.5rem;
+        margin-top: 1rem;
     }   
 }

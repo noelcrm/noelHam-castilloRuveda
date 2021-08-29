@@ -54,53 +54,68 @@
     <!-- cierre header -->
     <!-- comienzo contenido pedidos -->
     <div class="conteiner">
-      <div class="row">
+      <div class="row justify-content-center align-items-center">
         <div class="col-lg-12 col-12">
           <h1 class="titulo">Quiero mi amigurumi</h1>
         </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-5 col-12 prductoPedido">
-          <img class="imgPedido" src="../img/palta.jpg" alt="producto x" /><br />
-          <label for="producto">Producto del Catálogo:</label><br />
-          <select name="producto" id="producto">
-            <option value="Pulpi">Pulpi</option>
-            <option value="Palta">Palta</option>
-            <option value="Carpincho">Carpincho</option></select
-          ><br />
-          <label for="tamaño">Tamaño:</label><br />
-          <select name="tamaño" id="tamaño">
-            <option value="chico">Chico</option>
-            <option value="mediano">Mediano</option>
-            <option value="grande">Grande</option>
-          </select>
-        </div>
-        <div class="col-lg-5 col-12">
-          <div class="tiempo">
-            <h2 class="subtitulo">Fecha estimada</h2>
-            <img class="img-fluid" src="../img/calendario.svg" alt="Calendario" />
+        <div class="col-lg-3 col-12 productoPedido">
+          <img class="img-fluid" src="../img/palta.jpg" alt="producto x" /><br />
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Producto del catálogo</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Palta</option>
+              <option>Pulpi</option>
+              <option>Carpincho</option>
+              <option>Salchicha</option>
+              <option>Grinch</option>
+              <option>Unicornio</option>
+              <option>Totoro</option>
+              <option>Baby Yoda</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Tamaño</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Chico</option>
+              <option>Mediano</option>
+              <option>Grande</option>
+            </select>
           </div>
         </div>
-        <div class="col-lg-12 col-12 botonesPedido">
-          <input type="submit" value="ACEPTAR" />
-          <input type="reset" value="CANCELAR" />
+        <div class="col-lg-4 col-12">
+          <div class="tiempo">
+            <img class="img-fluid" src="../img/calendario.svg" alt="Calendario" />
+            <p>Tiempo estimado de producción</p>
+          </div>
         </div>
       </div>
     </div>
     <div class="conteiner">
-      <div class="row pedidoNuevo">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6 col-12">
-          <h1 class="titulo">¿No encontras lo que buscas?</h1>
-          <p>¡Solo tenes que completar el formulario de Contacto siguiendo los pasos de la lista!</p>
+      <div class="row justify-content-center">
+        <div class="botonesPedido">
+          <button type="button" class="btn btn-danger">ACEPTAR</button>
+          <button type="button" class="btn btn-danger">CANCELAR</button>
+        </div>
+      </div>
+    </div>
+    <div class="conteiner">
+      <div class="row justify-content-center">
+        <h1 class="titulo">¿No encontras lo que buscas?</h1>
+      </div>
+    </div>
+    <div class="conteiner">
+      <div class="row justify-content-center pedidoNuevo">
+        <div class="col-lg-4 col-12">
+          <p>¡Completa el formulario de Contacto siguiendo los pasos de la lista!</p>
           <h2 class="subtitulo">Pasos para realizar un pedido personalizado</h2>
           <ol>
             <li>Describir el personaje</li>
             <li>Aclarar el tamaño deseado</li>
             <li>Detalles a agregar</li>
             <ul>
-              <li>Ropa</li>
-              <li>Accesorios</li>
-              <li>Otros</li>
+              <li>· Ropa</li>
+              <li>· Accesorios</li>
+              <li>· Otros</li>
             </ul>
             <li>Colores para el muñeco y detalles</li>
             <li>Y listo! Nos estaremos comunicando con vos para darte toda la info!</li>

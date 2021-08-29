@@ -49,6 +49,29 @@
     }
 }
 
+.queHago {
+    margin-top: 3rem;
+    .tituloQueHago {
+        color:$rojoOscuro;
+        font-weight: 600;
+        font-size: 2rem;
+        font-family: 'Roboto Slab', serif;
+        text-transform: uppercase;
+    }
+    .textoQueHago {
+        background-color:$blanco;
+        padding: 15px;
+        p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: justify;
+        }
+        .ultimoParrQueHago {
+            margin-bottom: 0;
+        }
+    }
+}
+
 @media only screen and (min-width:0px) and (max-width:767px) {
     .sobreMi {
         width: 80%;
@@ -69,6 +92,20 @@
             p {
                 font-size: 0.8rem;
                 padding: 5px;
+            }
+        }
+    }
+    .queHago {
+        margin-top: 2rem;
+        .tituloQueHago {
+            margin-top: 1rem;
+            font-size: 1rem;
+            text-align: center;
+        }
+        .textoQueHago {
+            padding: 10px;
+            p {
+            font-size: 0.8rem;
             }
         }
     }
