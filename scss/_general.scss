@@ -18,9 +18,13 @@ $alto:250px;
     margin: 0;
 }
 
-body {
+main {
     background-image: url(../img/ovillos.svg);
     background-size: cover;
+}
+
+.errorNoel {
+    margin-top: 10rem;
 }
 
 .titulo {
@@ -52,4 +56,20 @@ body {
         font-size: 1.5rem;
         margin-top: 1rem;
     }   
+    
+    .error {
+        background-image: none;
+        .errorNoel {
+            margin-top: 5rem;
+            text-align: center;
+            h3 {
+                font-size: 1rem;
+                text-align: center;
+            }
+            p {
+                font-size: 0.8rem;
+                text-align: center;
+            }
+        }
+    }
 }

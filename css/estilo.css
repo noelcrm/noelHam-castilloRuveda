@@ -6,9 +6,12 @@
   width: 100%;
   margin: 0; }
 
-body {
+main {
   background-image: url(../img/ovillos.svg);
   background-size: cover; }
+
+.errorNoel {
+  margin-top: 10rem; }
 
 .titulo {
   color: #9C1D22;
@@ -35,7 +38,18 @@ body {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .titulo {
     font-size: 1.5rem;
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+  .error {
+    background-image: none; }
+    .error .errorNoel {
+      margin-top: 5rem;
+      text-align: center; }
+      .error .errorNoel h3 {
+        font-size: 1rem;
+        text-align: center; }
+      .error .errorNoel p {
+        font-size: 0.8rem;
+        text-align: center; } }
 
 header {
   top: 0px;
@@ -209,7 +223,7 @@ header {
   padding: 0; }
 
 .contenedorCards {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 3rem; }
   .contenedorCards .cardProducto {
     background-color: #FBD2D3;
@@ -242,7 +256,7 @@ header {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .tituloCatalogo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 1rem; }
   .cardProducto {
     margin-bottom: 15px;
